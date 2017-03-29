@@ -14,7 +14,7 @@ All releases can be found under the [release section](https://github.com/floragu
 
 ## (Preliminary) Documentation
 
-* Download the release matching your Kibana installation
+* Download the release matching your Kibana installation.
 * Kibana >= 5
  * cd into your Kibana installaton directory
  * Execute: `bin/kibana-plugin install file:///path/to/searchguard-kibana-alpha-<version>.zip` 
