@@ -14,7 +14,7 @@ rm -rf build/
 #rm -rf node_modules/
 #npm install --save hapi@16.0.1
 #npm install
-COPYPATH="build/kibana/$PLUGIN_NAME"
+COPYPATH="build/$PLUGIN_NAME"
 mkdir -p $COPYPATH
 cp -a index.js $COPYPATH
 cp -a package.json $COPYPATH
