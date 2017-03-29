@@ -24,7 +24,7 @@ cp -a public $COPYPATH
 #cp -a server $COPYPATH
 cd build
 echo "start zip"
-zip --quiet -r $PLUGIN_NAME-$PLUGIN_VERSION.zip kibana
+zip --quiet -r $PLUGIN_NAME-$PLUGIN_VERSION.zip $PLUGIN_NAME
 echo "finish zip"
 ls -lah $PLUGIN_NAME-$PLUGIN_VERSION.zip
 cd $DIR
